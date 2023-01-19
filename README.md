@@ -9,3 +9,6 @@ https://rifatkhan-portfolio.netlify.app/
 
 Deployed Link on GitHub Pages
 https://rifatkhan22.github.io/Portfolio/
+
+WireFrame
+<img src ="/images/wireframe.png" alt="wireframe">
