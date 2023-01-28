@@ -11,10 +11,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Maven+Pro:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
 </head>
 <body>
     <!--Header-->
-    <header>
+    <header id="home">
     <div class="container">
         <nav>
             <a href="#about">About Me</a>
@@ -27,7 +28,7 @@
         <div>
             <h1>Hey! I'm Rifat Khan</h1>
             <p>I'm a Full stack software engineer  </p>
-            <a href="" class="btn">Let's Connect</a>
+            <a href="#contact" class="btn">Let's Connect</a>
             
         </div>
     </div>
@@ -79,7 +80,7 @@
 
             </div>
 
-            <div class="work-container">
+            <div class="work-container" id="observer-target">
                 <div class="work-container-text">
                  <h3>Snake Game</h3>
                  <p>A snake game where user maneuvers snake object to avoid obstacles and consume food.</p>
@@ -163,7 +164,7 @@
             <p>©2023 Designed By Rifat Khan</p>
         </div>
        </footer>
-       <a aria-label="Back to top" class="back-to-top">
+       <a aria-label="Back to home" class="back-to-home" href="#home">
             <img src="images/arrow-up.svg" alt="arrow up">
        </a>
 </body>

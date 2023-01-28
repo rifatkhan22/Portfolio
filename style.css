@@ -388,3 +388,28 @@ footer{
 /*----------------------*/
 /*-------BACK TO TOP BUTTON---------------*/
 /*----------------------*/
+.back-to-home{
+    position: fixed;
+    bottom: var(--gutter-s);
+    right: var(--gutter-s);
+    background: var(--color-infared);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 5.5rem;
+    width: 5.5rem;
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.2s;
+}
+
+.back-to-home.visible {
+    visibility: visible;
+    transform: none;
+    opacity: 1;
+}
+.back-to-home img {
+    height: 40px;
+}
